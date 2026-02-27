@@ -3,14 +3,11 @@ export default {
   data() {
     return {
       bibtex: [
-        "@misc{liu2025energyregularizedsequentialmodelediting,",
-        "    title={Energy-Regularized Sequential Model Editing on Hyperspheres},",
-        "    author={Qingyuan Liu and Jia-Chen Gu and Yunzhi Yao and Hong Wang and Nanyun Peng},",
-        "    year={2025},",
-        "    eprint={2510.01172},",
-        "    archivePrefix={arXiv},",
-        "    primaryClass={cs.CL},",
-        "    url={https://arxiv.org/abs/2510.01172},",
+        "@inproceedings{liu2026energy,",
+        "  title={Energy-Regularized Sequential Model Editing on Hyperspheres},",
+        "  author={Liu, Qingyuan and Gu, Jia-Chen and Yao, Yunzhi and Wang, Hong and Peng, Nanyun},",
+        "  booktitle={The Fourteenth International Conference on Learning Representations}",
+        "  year={2026}",
         "}",
       ],
     }
