@@ -4,7 +4,7 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = './icon/logo.png'
+const logo = '/sphere_projectpage/icon/logo.png'
 
 // 标题
 const title = 'SPHERE: Energy-Regularized Sequential Model Editing on Hyperspheres'

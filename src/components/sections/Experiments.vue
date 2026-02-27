@@ -7,37 +7,37 @@ const rqs = [
   {
     id: 'RQ1',
     question: 'How does SPHERE perform on sequential editing tasks compared to baseline methods?',
-    image: 'sphere_projectpage/experiments/rq1.png',
+    image: '/sphere_projectpage/experiments/rq1.png',
     caption: 'Comparison of SPHERE with existing methods on sequential editing. Eff., Gen., Spe., Flu. and Consis. denote Efficacy, Generalization, Specificity, Fluency and Consistency, respectively. The best results are highlighted in bold, while the second-best results are underlined.'
   },
   {
     id: 'RQ2',
     question: 'Can SPHERE effectively preserve the hyperspherical uniformity of edited weights?',
-    image: 'sphere_projectpage/experiments/rq2.png',
+    image: '/sphere_projectpage/experiments/rq2.png',
     caption: 'Cosine similarity between neurons in the updated weight matrix after 15,000 edits. Darker colors indicate lower similarity, reflecting better hyperspherical and orthogonal uniformity. SPHERE effectively preserves the weight structure, demonstrating the most stable hyperspherical uniformity.'
   },
   {
     id: 'RQ3',
     question: 'How does SPHERE-edited LLMs perform on general ability evaluations?',
-    image: 'sphere_projectpage/experiments/rq3.png',
+    image: '/sphere_projectpage/experiments/rq3.png',
     caption: 'General ability testing of post-edited LLaMA3 (8B) on four tasks.Eff. Gen. Spe.'
   },
   {
     id: 'RQ4',
     question: 'Can baseline methods be significantly improved with plug-and-play SPHERE?',
-    image: 'sphere_projectpage/experiments/rq4.png',
+    image: '/sphere_projectpage/experiments/rq4.png',
     caption: 'Performance improvements of baseline editing methods after adding a single line of code from SPHERE (i.e., sparse space projection). Gray bars denote the original baseline performance, while purple bars indicate the performance after enhancement.'
   },
   {
     id: 'RQ5',
     question: 'What is the computational overhead of SPHERE in terms of time efficiency?',
-    image: 'sphere_projectpage/experiments/rq5.png',
+    image: '/sphere_projectpage/experiments/rq5.png',
     caption: 'Runtimes of SPHERE.'
   },
   {
     id: 'RQ6',
     question: 'How do different hyperparameter choices affect the stability of SPHERE?',
-    image: 'sphere_projectpage/experiments/rq6.png',
+    image: '/sphere_projectpage/experiments/rq6.png',
     caption: 'Sensitivity of SPHERE.'
   }
 ]
