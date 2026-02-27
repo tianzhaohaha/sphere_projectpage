@@ -5,31 +5,31 @@ import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
 
 // 个人主页
 const home = {
-    name: "My Blog",
-    link: "https://junyaohu.github.io/",
+    name: "My Homepage",
+    link: "https://www.qingyuanliu.net/",
 }
 
 // 项目主页
 const logo = {
-    name: "Template",
+    name: "SPHERE",
     link: "#",
 }
 
-// 右侧更多菜单
-const more_paper = {
-    "ExtDM": {
-        name: "ExtDM - CVPR 2024",
-        link: "https://zzcheng.top/ExtDM/",
-    },
-    "MPOT": {
-        name: "MPOT - ICCV 2023",
-        link: "https://zzcheng.top/MPOT/",
-    },
-    "ControlNet": {
-        name: "ControlNet - ICCV 2023",
-        link: "https://github.com/lllyasviel/ControlNet",
-    }
-}
+// 右侧更多菜单（已注释）
+// const more_paper = {
+//     "ExtDM": {
+//         name: "ExtDM - CVPR 2024",
+//         link: "https://zzcheng.top/ExtDM/",
+//     },
+//     "MPOT": {
+//         name: "MPOT - ICCV 2023",
+//         link: "https://zzcheng.top/MPOT/",
+//     },
+//     "ControlNet": {
+//         name: "ControlNet - ICCV 2023",
+//         link: "https://github.com/lllyasviel/ControlNet",
+//     }
+// }
 
 </script>
 
@@ -56,7 +56,7 @@ const more_paper = {
             <a :href=logo.link>{{ logo.name }} </a>
         </el-menu-item>
 
-        <!-- 更多栏目 -->
+        <!-- 更多栏目（已注释）
         <el-sub-menu index="2">
             <template #title>More</template>
             <el-menu-item index="2-1">
@@ -69,6 +69,7 @@ const more_paper = {
                 <a :href=more_paper.ControlNet.link>{{ more_paper.ControlNet.name }}</a>
             </el-menu-item>
         </el-sub-menu>
+        -->
 
     </el-menu>
     </el-affix>

@@ -3,11 +3,14 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
+        "@misc{liu2025energyregularizedsequentialmodelediting,",
+        "    title={Energy-Regularized Sequential Model Editing on Hyperspheres},",
+        "    author={Qingyuan Liu and Jia-Chen Gu and Yunzhi Yao and Hong Wang and Nanyun Peng},",
+        "    year={2025},",
+        "    eprint={2510.01172},",
+        "    archivePrefix={arXiv},",
+        "    primaryClass={cs.CL},",
+        "    url={https://arxiv.org/abs/2510.01172},",
         "}",
       ],
     }

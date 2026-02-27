@@ -16,6 +16,10 @@ import Comment from './sections/Comment.vue'
 import Latex from './sections/Latex.vue'
 import Model3D from './sections/Model3D.vue'
 import GaussianSplats3D from './sections/GaussianSplats3D.vue'
+import Observation from './sections/Observation.vue'
+import Teaser from './sections/Teaser.vue'
+import Method from './sections/Method.vue'
+import Experiments from './sections/Experiments.vue'
 
 export default {
   components: {
@@ -35,27 +39,35 @@ export default {
     Comment,
     Latex,
     Model3D,
-    GaussianSplats3D
+    GaussianSplats3D,
+    Observation,
+    Teaser,
+    Method,
+    Experiments
   }
 }
 </script>
 
 <template>
   <Title/>
-  <Carousel/>
-  <Video/>
+  <!-- <Carousel/> -->
+  <!-- <Video/> -->
   <Abstract/>
-  <Markdown/>
-  <Latex/>
-  <Table/>
-  <Collapse/>
-  <Echart/>
-  <Model3D/>
-  <GaussianSplats3D/>
-  <SeletionForComparison/>
-  <ImageSliderInner/>
-  <ImageSlider/>
-  <ImageSelector/>
+  <Teaser/>
+  <Observation/>
+  <Method/>
+  <Experiments/>
+  <!-- <Markdown/> -->
+  <!-- <Latex/> -->
+  <!-- <Table/> -->
+  <!-- <Collapse/> -->
+  <!-- <Echart/> -->
+  <!-- <Model3D/> -->
+  <!-- <GaussianSplats3D/> -->
+  <!-- <SeletionForComparison/> -->
+  <!-- <ImageSliderInner/> -->
+  <!-- <ImageSlider/> -->
+  <!-- <ImageSelector/> -->
   <BibTeX/>
   <Comment/>
 </template>
