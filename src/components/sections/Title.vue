@@ -92,7 +92,7 @@ const news = ""
 
 // 强调内容
 const emphases = [
-  "🎉🎉 SPHERE is accepted by ICLR 2026! 🎉🎉",
+  "🎉🎉 SPHERE is accepted by ICLR 2026 (Top 1.1%)! 🎉🎉",
 ]
 
 // 提供引导资料链接
