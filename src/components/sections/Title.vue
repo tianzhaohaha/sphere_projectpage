@@ -30,7 +30,7 @@ const authors = [
     address_flag: "1*"
   },
   {
-    name: "Jiachen Gu",
+    name: "Jia-Chen Gu",
     // icon: "./icon/anya.jpg",
     homepage: "https://jasonforjoy.github.io/",
     address_flag: "2*"
