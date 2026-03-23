@@ -121,7 +121,7 @@ const buttons = [
     component: Picture,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Slide",
     link: "https://tianzhaohaha.github.io/uploads/NICE_Slide_Sim.pdf",
     component: DataAnalysis,
