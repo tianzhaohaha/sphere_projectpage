@@ -123,6 +123,7 @@ const buttons = [
   {
     disabled: true,
     name: "Slide",
+    link: "https://tianzhaohaha.github.io/uploads/NICE_Slide_Sim.pdf",
     component: DataAnalysis,
   },
   {
