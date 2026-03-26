@@ -6,7 +6,7 @@ export default {
         "@inproceedings{liu2026energy,",
         "  title={Energy-Regularized Sequential Model Editing on Hyperspheres},",
         "  author={Liu, Qingyuan and Gu, Jia-Chen and Yao, Yunzhi and Wang, Hong and Peng, Nanyun},",
-        "  booktitle={The Fourteenth International Conference on Learning Representations}",
+        "  booktitle={The Fourteenth International Conference on Learning Representations},",
         "  year={2026}",
         "}",
       ],
